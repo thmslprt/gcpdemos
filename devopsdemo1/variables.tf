@@ -1,42 +1,35 @@
 variable "project_id" {
-  description = "gab-devops-3-413719"
-  type        = string
-  default = "gab-devops-3-413719"
+  type    = string
+  default = "qwiklabs-gcp-03-1200b28ed2d1"
 }
 
 variable "region" {
-  description = "us-central1"
-  type        = string
+  type    = string
   default = "us-central1"
 }
 
 variable "zone" {
-  description = "us-central1-a"
-  type        = string
+  type    = string
   default = "us-central1-a"
 }
 
 variable "project_number" {
-  description = "284559639714"
-  type        = string
-  default = "284559639714"
+  type    = string
+  default = "270028246466"
 }
 
 variable "github_config_app_installation_id" {
-  description = "12345678"
-  type        = string
-  default = "12345678"
+  type    = string
+  default = "51777711"
 }
 
 variable "google_cloudbuildv2_repository_remote_uri" {
-  description = "https://github.com/gbechara/gcpdemos.git"
-  type        = string
-  default = "https://github.com/gbechara/gcpdemos.git"
+  type    = string
+  default = "https://github.com/thmslprt/gcpdemos"
 }
 
 variable "google_configmanagement_sync_repo" {
-  description = "https://github.com/gbechara/gcpdemos/"
-  type        = string
-  default = "https://github.com/gbechara/gcpdemos/"
+  type    = string
+  default = "https://github.com/thmslprt/gcpdemos"
 }
 
