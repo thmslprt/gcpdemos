@@ -25,7 +25,7 @@ variable "github_config_app_installation_id" {
 
 variable "google_cloudbuildv2_repository_remote_uri" {
   type    = string
-  default = "https://github.com/thmslprt/gcpdemos"
+  default = "https://github.com/thmslprt/gcpdemos.git"
 }
 
 variable "google_configmanagement_sync_repo" {

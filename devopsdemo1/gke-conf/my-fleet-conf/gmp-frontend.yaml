@@ -36,7 +36,7 @@ spec:
         image: "gke.gcr.io/prometheus-engine/frontend:v0.5.0-gke.0"
         args:
         - "--web.listen-address=:9090"
-        - "--query.project-id=gab-devops-1"
+        - "--query.project-id=qwiklabs-gcp-03-1200b28ed2d1"
         ports:
         - name: web
           containerPort: 9090

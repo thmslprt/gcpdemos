@@ -11,5 +11,5 @@ spec:
         autoscaling.knative.dev/minScale: '1'
         autoscaling.knative.dev/maxScale: '2'
     spec:
-      serviceAccountName: llm-sa@gab-devops-1.iam.gserviceaccount.com 
+      serviceAccountName: llm-sa@qwiklabs-gcp-03-1200b28ed2d1.iam.gserviceaccount.com 
         
